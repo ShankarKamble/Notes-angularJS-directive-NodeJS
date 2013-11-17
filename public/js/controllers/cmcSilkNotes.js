@@ -7,8 +7,8 @@ noteApp.controller('cmcNotesAppSilkCtrl', ['$scope', '$http', '$location', '$fil
 
         $scope.maxHeight = "300px";
         $scope.maxWidth = "300px";
-        $scope.height = "300px";
-        $scope.width = "300px";
+        $scope.height = "200px";
+        $scope.width = "200px";
         $scope.items = [{
             name: '300px'
         }, {
@@ -66,9 +66,6 @@ noteApp.controller('cmcNotesAppSilkCtrl', ['$scope', '$http', '$location', '$fil
             if (items.name !== 'fullScreen') {
                 $scope.maxHeight = items.name;
                 $scope.maxWidth = items.name;
-                $scope.height =  items.name;
-                $scope.width =  items.name;
-
             } else {
                 var w = angular.element($window);
                 $scope.maxHeight = w.height() + 'px';
