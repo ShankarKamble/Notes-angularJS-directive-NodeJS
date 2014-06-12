@@ -1,3 +1,11 @@
+Dear Viewer, 
+ This code is solely my proprietary and it is not connected with any company or organizations. 
+I request companies and organizations not use my link for yours work sample
+
+Regards
+Shankar Kamble
+
+
 Use Technology
 1)Angular.js
 2)Node.js
